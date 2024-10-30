@@ -42,6 +42,7 @@ def segment_customers(df, criteria):
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server - app.server
 
 # Define color scheme for segments
 color_scheme = {
